@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="stylesheets/style.css" /> <% for (let i=0;
+i<posts.length; i++) { %>
+  <div class="post">
+    <h1><%= posts[i].title %></h1>
+    <p class="meta">
+      By <strong><%= posts[i].author %></strong> on
+      <em><%= posts[i].date %></em>
+    </p>
+    <p><%= posts[i].post %></p>
+  </div>
+  <% } %>
+</posts.length;>

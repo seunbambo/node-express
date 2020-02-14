@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <% if(success) { %>
+    <h2 class="success">Post successfully submitted</h2>
+    <% } %> <% include ./form %>
+  </body>
+</html>
